@@ -30,7 +30,7 @@
         <!-- HEADER -->
         <header>
             <!-- Header Top Nav Bar -->
-            <nav class="position-fixed w_100">
+            <nav class="position-fixed bgcolor_grey w_100">
                 <!-- Top Nav Bar Container -->
                 <div class="container-fluid bg-white my-1 my-lg-3">
                     <!-- Top Nav Bar Row -->
@@ -129,7 +129,7 @@
                     <div class="row row-cols-1 h_100">
                         <!-- Main Center Col First Section -->
                             <!-- First Section Mobile Version -->
-                            <div class="col text-white bgcolor_blue d-md-none">
+                            <section class="col text-white bgcolor_blue d-md-none">
                                 <div class="row row-cols-1">
                                     <!-- Nuovo Studente Col -->
                                     <div class="col">
@@ -169,9 +169,9 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
                             <!-- First Section Desktop Version -->
-                            <div class="col text-white bgcolor_blue d-none d-md-block">
+                            <section class="col text-white bgcolor_blue d-none d-md-block">
                                 <div class="row row-cols-3">
                                     <!-- Boolean Col -->
                                     <div class="col">
@@ -217,7 +217,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
                             <!-- First Section OffCanvas -->
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
@@ -229,14 +229,101 @@
                                 </div>
                             </div>
                         <!-- Fine Main Center Col First Section -->
-                        <!-- Main Center Col Next Classes Section -->
-                        <div class="col border border-danger"></div>
-                        <!-- Main Center Col Faq Section -->
-                        <div class="col border border-danger"></div>
-                        <!-- Main Center Col Todo Section -->
-                        <div class="col border border-danger"></div>
-                        <!-- Main Center Col Chart Section -->
-                        <div class="col border border-danger"></div>
+                        <!-- Container Col Main Center Left -->
+                        <div class="col-12 col-lg-7">
+                            <div class="row row-cols-1 h_100">
+                                <!-- Main Center Col Next Classes Section -->
+                                <section class="col gy-4">
+                                    <div class="next_classes_content">
+                                        <div class="card">
+                                            <!-- Next Classes Header -->
+                                            <h2 class="card-header bgcolor_grey">Prossime Classi</h2>
+                                            <!-- Next Classes Body -->
+                                            <div class="card-body">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Main Center Col Faq Section -->
+                                <section class="col gy-4">
+                                    <div class="faq_content">
+                                        <div class="card">
+                                            <!-- Faq Header -->
+                                            <h2 class="card-header bgcolor_grey">F.A.Q.</h2>
+                                            <!-- Faq Body -->
+                                            <div class="card-body">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <!-- Container Col Main Center Right -->
+                        <div class="col-12 col-lg-5">
+                            <div class="row row-cols-1 h_100">
+                                <!-- Main Center Col Todo Section -->
+                                <section class="col gy-4">
+                                    <div class="todo_content">
+                                        <div class="card">
+                                            <!-- Todo Header -->
+                                            <h2 class="card-header bgcolor_grey">Todo</h2>
+                                            <!-- Todo Body -->
+                                            <div class="card-body">
+                                                <!-- Todo List -->
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        <input class="form-check-input border border-dark-subtle" type="checkbox" id="flexCheckDefault">
+                                                        <label class="form-check-label px-2" for="flexCheckDefault">
+                                                            Kickoff nuove classi
+                                                        </label>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <input class="form-check-input border border-dark-subtle" type="checkbox" id="flexCheckDefault2">
+                                                        <label class="form-check-label px-2" for="flexCheckDefault2">
+                                                            Lezione su Bootstrap 5 in classe #75
+                                                        </label>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <input class="form-check-input border border-dark-subtle" type="checkbox" id="flexCheckDefault3">
+                                                        <label class="form-check-label px-2" for="flexCheckDefault3">
+                                                            Controllare username github studenti
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Main Center Col Chart Section -->
+                                <section class="col gy-4 mb-5">
+                                    <div class="chart_content">
+                                        <div class="card p-3">
+                                            <div class="card">
+                                                <!-- Chart Body -->
+                                                <div class="card-body">
+                                                    <!-- Chart Image -->
+                                                    <img src="./img/stats.jpeg" alt="chart-img" class="card-img-top img-fluid">
+                                                    <!-- Chart Title -->
+                                                    <h4 class="card-title">Utenti attivi</h4>
+                                                    <!-- Chart Text -->
+                                                    <span class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</span>
+                                                </div>
+                                                <!-- Chart List -->
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">Gennaio: 1200</li>
+                                                    <li class="list-group-item">Febbraio: 800</li>
+                                                    <li class="list-group-item">Marzo: 1500</li>
+                                                </ul>
+                                                <!-- Chart Footer -->
+                                                <div class="card-footer bg-white">
+                                                    <a href="#">Visualizza report approfondito</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

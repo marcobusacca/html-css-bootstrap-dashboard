@@ -29,6 +29,7 @@ a{
 /* FINE HEADER */
 
 /* MAIN */
+    /* MAIN FIRST SECTION */
     .main_center_content h2{
         display: inline-block;
     }
@@ -50,6 +51,17 @@ a{
     .main_center_content .fa-angles-right{
         margin: 0 5px;
     }
+
+    /* MAIN NEXT CLASSES SECTION */
+    
+    /* MAIN FAQ SECTION */
+    
+    /* MAIN TODO SECTION */
+    
+    /* MAIN CHART SECTION */
+    .chart_content a{
+        text-decoration: underline;
+    }
 /* FINE MAIN */
 
 /* UTILITIES */
@@ -60,10 +72,6 @@ a{
     /* FINE WIDTH */
 
     /* HEIGHT */
-        .h_50{
-            height: 50%;
-        }
-
         .h_100{
             height: 100%;
         }
@@ -84,6 +92,10 @@ a{
             background-color: #F8F9FA;
         }
 
+        .bgcolor_grey_2{
+            background-color: #F7F7F7;
+        }
+        
         .bgcolor_darkblue{
             background-color: #051E34;
         }
@@ -169,3 +181,7 @@ a{
         }
     }
 /* FINE LAYOUT RESPONSIVE */
+
+.border_custom{
+    border: 5px solid black;
+}
