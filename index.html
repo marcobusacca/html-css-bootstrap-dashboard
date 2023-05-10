@@ -36,7 +36,7 @@
                     <!-- Top Nav Bar Row -->
                     <div class="row">
                         <!-- Top Nav Bar Logos -->
-                        <div class="col-1 col-lg-2">
+                        <div class="col-2 col-md-1 col-lg-2">
                             <div class="top_nav_bar_content d-flex align-items-center h_100">
                                 <!-- Mobile Logo -->
                                 <img src="./img/mobile-logo.png" alt="mobile-logo" class="d-lg-none">
@@ -44,14 +44,16 @@
                                 <img src="./img/logo.svg" alt="" class="d-none d-lg-block">
                             </div>
                         </div>
-                        <div class="col-10 col-lg-8">
+                        <!-- Top Nav Bar Search Input -->
+                        <div class="col-8 col-md-10 col-lg-8">
                             <div class="top_nav_bar_content">
                                 <form action="#" method="POST">
                                     <input type="text" name="top-nav-bar-search" placeholder="&#xf002;   Prova a cercare: Lezioni di Laravel" class="border-0 rounded-2 fw-bold my-2 my-lg-0 w_100">
                                 </form>
                             </div>
                         </div>
-                        <div class="col-1 col-lg-2">
+                        <!-- Top Nav Bar Menu List -->
+                        <div class="col-2 col-md-1 col-lg-2">
                             <div class="top_nav_bar_content d-flex justify-content-end align-items-center h_100">
                                 <!-- Icon List -->
                                 <a href="#">
@@ -67,7 +69,7 @@
                                 </a>
                                 <!-- Icon  Notifications -->
                                 <a href="#">
-                                    <i class="fa-solid fa-bell fa-lg txt_orange ps-3 pe-2"></i>
+                                    <i class="fa-solid fa-bell fa-lg txt_orange px-3 pe-lg-1"></i>
                                 </a>
                             </div>
                         </div>
@@ -79,13 +81,43 @@
         <!-- MAIN -->
         <main>
             <!-- Main Side Bar -->
-            <div class="main_side_bar position-fixed bg-black">
+            <div class="main_side_bar position-fixed bgcolor_darkblue">
                 <!-- Main Side Bar Container -->
                 <div class="container-fluid h_100">
                     <!-- Main Side Bar Row -->
                     <div class="row row-cols-1 h_100">
-                        <div class="col border border-danger h_50"></div>
-                        <div class="col border border-danger h_50"></div>
+                        <div class="col">
+                            <!-- Home -->
+                            <a href="#" class="main_side_bar_content d-flex justify-content-center py-4 py-lg-1 pt-lg-3">
+                                <!-- Home Icon -->
+                                <i class="fa-solid fa-house fa-lg text-light px-3 py-lg-3"></i>
+                                <!-- Home Text -->
+                                <span class="text-light fw-bold d-none d-lg-inline py-lg-2">Home</span>
+                            </a>
+                            <!-- Stats -->
+                            <a href="#" class="main_side_bar_content d-flex justify-content-center py-4 py-lg-1">
+                                <!-- Stats Icon -->
+                                <i class="fa-solid fa-chart-simple fa-lg text-light px-3 py-lg-3"></i>
+                                <!-- Stats Text -->
+                                <span class="text-light fw-bold d-none d-lg-inline py-lg-2">Stats</span>
+                            </a>
+                            <!-- Signals -->
+                            <a href="#" class="main_side_bar_content d-flex justify-content-center py-4 py-lg-1">
+                                <!-- Signals Icon -->
+                                <i class="fa-sharp fa-solid fa-signal fa-lg text-light px-3 py-lg-3"></i>
+                                <!-- Signals Text -->
+                                <span class="text-light fw-bold d-none d-lg-inline py-lg-2">Signals</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <!-- Admin Settings -->
+                            <a href="#" class="main_side_bar_content d-flex justify-content-center align-items-end h_100 py-5 py-lg-4">
+                                <!-- Admin Settings Icon -->
+                                <i class="fa-sharp fa-solid fa-gear fa-lg text-light px-3 py-lg-3"></i>
+                                <!-- Admin Settings Text -->
+                                <span class="text-light fw-bold d-none d-lg-inline py-lg-1">Admin</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,15 +128,15 @@
                     <!-- Main Center Row -->
                     <div class="row row-cols-1 h_100">
                         <!-- Main Center Col First Section -->
-                        <div class="col border border-danger h_20"></div>
+                        <div class="col border border-danger"></div>
                         <!-- Main Center Col Next Classes Section -->
-                        <div class="col border border-danger h_20"></div>
+                        <div class="col border border-danger"></div>
                         <!-- Main Center Col Faq Section -->
-                        <div class="col border border-danger h_20"></div>
+                        <div class="col border border-danger"></div>
                         <!-- Main Center Col Todo Section -->
-                        <div class="col border border-danger h_20"></div>
+                        <div class="col border border-danger"></div>
                         <!-- Main Center Col Chart Section -->
-                        <div class="col border border-danger h_20"></div>
+                        <div class="col border border-danger"></div>
                     </div>
                 </div>
             </div>
