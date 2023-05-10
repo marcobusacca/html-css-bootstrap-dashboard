@@ -122,13 +122,113 @@
                 </div>
             </div>
             <!-- Main Center -->
-            <div class="main_center position-absolute bg-black">
+            <div class="main_center position-absolute">
                 <!-- Main Center Container -->
                 <div class="container-fluid h_100">
                     <!-- Main Center Row -->
                     <div class="row row-cols-1 h_100">
                         <!-- Main Center Col First Section -->
-                        <div class="col border border-danger"></div>
+                            <!-- First Section Mobile Version -->
+                            <div class="col text-white bgcolor_blue d-md-none">
+                                <div class="row row-cols-1">
+                                    <!-- Nuovo Studente Col -->
+                                    <div class="col">
+                                        <div class="main_center_content px-1 py-4">
+                                            <!-- Nuovo Studente -->
+                                            <span>Nuovo Studente</span>
+                                            <!-- OffCanvas Button -->
+                                            <button class="btn btn-outline-light mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                                <i class="fa-sharp fa-solid fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- Boolean Col -->
+                                    <div class="col">
+                                        <div class="main_center_content px-1 py-4">
+                                            <!-- Boolean Title -->
+                                            <h2>Boolean</h2>
+                                            <!-- Piano Blaze Label -->
+                                            <label class="rounded-4">Piano Blaze</label>
+                                            <div>
+                                                <!-- 3 app Label -->
+                                                <label class="rounded-4">3 app</label>
+                                                <!-- Successive Icon -->
+                                                <i class="fa-solid fa-angles-right"></i>
+                                                <!-- Plus Label -->
+                                                <label class="plus_label">
+                                                    <i class="fa-sharp fa-solid fa-plus fa-xs"></i>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Online Student Col -->
+                                    <div class="col">
+                                        <div class="main_center_content px-1 py-4">
+                                            <h5>Studenti online negli ultimi 30 minuti</h5>
+                                            <span class="fw-bold fs-1">125</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- First Section Desktop Version -->
+                            <div class="col text-white bgcolor_blue d-none d-md-block">
+                                <div class="row row-cols-3">
+                                    <!-- Boolean Col -->
+                                    <div class="col">
+                                        <div class="main_center_content px-1 py-4">
+                                            <!-- Boolean Title -->
+                                            <h2>Boolean</h2>
+                                            <!-- Piano Blaze Label -->
+                                            <label class="rounded-4">Piano Blaze</label>
+                                            <div class="py-2">
+                                                <!-- 3 app Label -->
+                                                <label class="rounded-4">3 app</label>
+                                                <!-- Successive Icon -->
+                                                <i class="fa-solid fa-angles-right"></i>
+                                                <!-- Plus Label -->
+                                                <label class="plus_label d-lg-none">
+                                                    <i class="fa-sharp fa-solid fa-plus fa-xs"></i>
+                                                </label>
+                                                <!-- Boolean Mobile App Label -->
+                                                <label class="rounded-4 d-none d-lg-inline">Boolean mobile app</label>
+                                                <!-- Boolean Web App Label -->
+                                                <label class="rounded-4 d-none d-lg-inline">Boolean web app</label>
+                                                <!-- Boolean Blog App Label -->
+                                                <label class="rounded-4 d-none d-lg-inline">Boolean blog app</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Online Student Col -->
+                                    <div class="col d-flex justify-content-center align-items-center">
+                                        <div class="main_center_content px-1 py-4">
+                                            <h5 class="fs-6">Studenti online negli ultimi 30 minuti</h5>
+                                            <span class="fw-bold fs-2">125</span>
+                                        </div>
+                                    </div>
+                                    <!-- Nuovo Studente Col -->
+                                    <div class="col">
+                                        <div class="main_center_content d-flex justify-content-center align-items-center px-1 py-4">
+                                            <!-- Nuovo Studente -->
+                                            <span>Nuovo Studente</span>
+                                            <!-- OffCanvas Button -->
+                                            <button class="btn btn-outline-light mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                                <i class="fa-sharp fa-solid fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- First Section OffCanvas -->
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    ...
+                                </div>
+                            </div>
+                        <!-- Fine Main Center Col First Section -->
                         <!-- Main Center Col Next Classes Section -->
                         <div class="col border border-danger"></div>
                         <!-- Main Center Col Faq Section -->

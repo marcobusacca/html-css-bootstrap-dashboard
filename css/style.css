@@ -29,6 +29,27 @@ a{
 /* FINE HEADER */
 
 /* MAIN */
+    .main_center_content h2{
+        display: inline-block;
+    }
+
+    .main_center_content > label{
+        margin: 0 5px;
+    }
+
+    .main_center_content label{
+        background-color: #165BBA;
+        padding: 2px 12px;
+    }
+
+    .main_center_content .plus_label{
+        padding: 2px 10px;
+        border-radius: 50%;
+    }
+
+    .main_center_content .fa-angles-right{
+        margin: 0 5px;
+    }
 /* FINE MAIN */
 
 /* UTILITIES */
@@ -66,6 +87,10 @@ a{
         .bgcolor_darkblue{
             background-color: #051E34;
         }
+
+        .bgcolor_blue{
+            background-color: #1B72E8;
+        }
     /* FINE BG COLOR */
 /* FINE UTILITIES */
 
@@ -98,7 +123,17 @@ a{
 /* LAYOUT RESPONSIVE */
     /* TABLET */
     @media (min-width: 768px){
+        .main_center_content h2{
+            font-size: 25px;
+        }
 
+        .main_center_content label{
+            font-size: 13px;
+        }
+
+        .main_center_content .plus_label{
+            padding: 1px 7px;
+        }
     }
 
     /* DESKTOP */
@@ -124,6 +159,13 @@ a{
         .main_center{
             width: calc(100% - 150px);
         }
+
+        .main_center_content h2{
+            font-size: 30px;
+        }
+
+        .main_center_content label{
+            font-size: 15px;
+        }
     }
 /* FINE LAYOUT RESPONSIVE */
-
