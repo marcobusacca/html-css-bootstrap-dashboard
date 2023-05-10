@@ -4,9 +4,29 @@
     box-sizing: border-box;
 }
 
-nav{
-    height: 80px;
-}
+/* LAYOUT */
+    /* HEADER LAYOUT */
+        nav{
+            height: 80px;
+        }
+    /* FINE HEADER LAYOUT */
+
+    /* MAIN LAYOUT */
+        .main_side_bar{
+            width: 100px;
+        }
+        
+        .main_center{
+            width: calc(100% - 100px);
+            right: 0;
+        }
+        
+        .main_side_bar, .main_center{
+            height: calc(100vh - 80px);
+            bottom: 0;
+        }
+    /* FINE MAIN LAYOUT */
+/* FINE LAYOUT */
 
 /* UTILITIES */
     /* WIDTH */
@@ -16,6 +36,10 @@ nav{
     /* FINE WIDTH */
 
     /* HEIGHT */
+        .h_50{
+            height: 50%;
+        }
+
         .h_100{
             height: 100%;
         }
