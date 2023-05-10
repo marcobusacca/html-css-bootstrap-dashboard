@@ -4,26 +4,50 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', 'FontAwesome', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+    .top_nav_bar_content > img:first-child{
+        width: 50px;
+    }
+
+    .top_nav_bar_content > img:last-child{
+        width: 150px;
+    }
+
+    .top_nav_bar_content input{
+        font-size: 12px;
+        padding: 10px;
+        background-color: #E5E5E5;
+    }
+/* FINE HEADER */
+
 /* LAYOUT */
     /* HEADER LAYOUT */
         nav{
-            height: 80px;
+            height: 65px;
         }
     /* FINE HEADER LAYOUT */
 
     /* MAIN LAYOUT */
         .main_side_bar{
-            width: 100px;
+            width: 80px;
         }
         
         .main_center{
-            width: calc(100% - 100px);
+            width: calc(100% - 80px);
             right: 0;
             overflow-y: auto;
         }
 
         .main_side_bar, .main_center{
-            height: calc(100vh - 80px);
+            height: calc(100vh - 65px);
             bottom: 0;
         }
     /* FINE MAIN LAYOUT */
@@ -49,4 +73,20 @@
             height: 100%;
         }
     /* FINE HEIGHT */
+
+    /* TEXT COLOR */
+        .txt_grey{
+            color: #5B5858;
+        }
+
+        .txt_orange{
+            color: #FF8F00;
+        }
+    /* FINE TEXT COLOR */
+
+    /* BG COLOR */
+        .bgcolor_grey{
+            background-color: #F8F9FA;
+        }
+    /* FINE BG COLOR */
 /* FINE UTILITIES */

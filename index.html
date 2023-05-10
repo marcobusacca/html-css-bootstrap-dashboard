@@ -14,6 +14,11 @@
         <!-- Font Awesome CDN -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- Font Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
         <!-- Collegamento a "style.css" -->
         <link rel="stylesheet" href="./css/style.css">
 
@@ -25,14 +30,47 @@
         <!-- HEADER -->
         <header>
             <!-- Header Top Nav Bar -->
-            <nav class="position-fixed bg-white w_100">
+            <nav class="position-fixed w_100">
                 <!-- Top Nav Bar Container -->
-                <div class="container h_100">
+                <div class="container-fluid bg-white my-1 my-lg-3">
                     <!-- Top Nav Bar Row -->
-                    <div class="row h_100">
-                        <div class="col border border-black h_100"></div>
-                        <div class="col border border-black h_100"></div>
-                        <div class="col border border-black h_100"></div>
+                    <div class="row">
+                        <!-- Top Nav Bar Logos -->
+                        <div class="col-1 col-lg-2">
+                            <div class="top_nav_bar_content d-flex align-items-center h_100">
+                                <!-- Mobile Logo -->
+                                <img src="./img/mobile-logo.png" alt="mobile-logo" class="d-lg-none">
+                                <!-- Full Logo -->
+                                <img src="./img/logo.svg" alt="" class="d-none d-lg-block">
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-8">
+                            <div class="top_nav_bar_content">
+                                <form action="#" method="POST">
+                                    <input type="text" name="top-nav-bar-search" placeholder="&#xf002;   Prova a cercare: Lezioni di Laravel" class="border-0 rounded-2 fw-bold my-2 my-lg-0 w_100">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-1 col-lg-2">
+                            <div class="top_nav_bar_content d-flex justify-content-end align-items-center h_100">
+                                <!-- Icon List -->
+                                <a href="#">
+                                    <i class="fa-solid fa-list-ul fa-lg txt_grey d-none d-lg-block px-3"></i>
+                                </a>
+                                <!-- Icon Help -->
+                                <a href="#">
+                                    <i class="fa-solid fa-circle-question fa-lg txt_grey d-none d-lg-block px-3"></i>
+                                </a>
+                                <!-- Icon Menu -->
+                                <a href="#">
+                                    <i class="fa-solid fa-ellipsis-vertical fa-lg txt_grey d-none d-lg-block px-3"></i>
+                                </a>
+                                <!-- Icon  Notifications -->
+                                <a href="#">
+                                    <i class="fa-solid fa-bell fa-lg txt_orange ps-3 pe-2"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
