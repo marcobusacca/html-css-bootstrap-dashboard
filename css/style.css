@@ -103,6 +103,7 @@ a{
 
     /* DESKTOP */
     @media (min-width: 992px){
+        /* MAIN SIDE BAR */
         .main_side_bar{
             width: 150px;
         }
@@ -115,6 +116,11 @@ a{
             width: 55px;
         }
 
+        .main_side_bar_content i.fa-chart-simple{
+            padding-left: 1.25rem;
+        }
+
+        /* MAIN CENTER */
         .main_center{
             width: calc(100% - 150px);
         }
