@@ -30,7 +30,7 @@
         <!-- HEADER -->
         <header>
             <!-- Header Top Nav Bar -->
-            <nav class="position-fixed d-flex align-items-center bgcolor_grey w-100">
+            <nav class="position-fixed z-index-1 d-flex align-items-center bgcolor_grey w-100">
                 <!-- Top Nav Bar Container -->
                 <div class="container-fluid bg-white">
                     <!-- Top Nav Bar Row -->
@@ -67,10 +67,29 @@
                                 <a href="#">
                                     <i class="fa-solid fa-ellipsis-vertical fa-lg txt_grey d-none d-lg-block px-3"></i>
                                 </a>
-                                <!-- Icon  Notifications -->
-                                <a href="#">
-                                    <i class="fa-solid fa-bell fa-lg txt_orange px-3 pe-lg-1"></i>
-                                </a>
+                                <!-- Icon Notifications Dropdown -->
+                                <div class="dropdown">
+                                    <!-- Icon Notifications Button -->
+                                    <button class="bg-transparent border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <!-- Icon Notifications -->
+                                        <i class="fa-solid fa-bell fa-lg txt_orange px-3 pe-lg-1"></i>
+                                    </button>
+                                    <!-- Icon Notifications Dropdown Menu -->
+                                    <ul class="dropdown-menu">
+                                        <!-- Dropdown Item 1 -->
+                                        <li>
+                                            <a class="dropdown-item" href="#">Profilo</a>
+                                        </li>
+                                        <!-- Dropdown Item 2 -->
+                                        <li>
+                                            <a class="dropdown-item" href="#">Fatturazione</a>
+                                        </li>
+                                        <!-- Dropdown Item 3 -->
+                                        <li>
+                                            <a class="dropdown-item" href="#">Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
