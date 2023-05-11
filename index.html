@@ -195,13 +195,32 @@
                                 </div>
                             </section>
                             <!-- First Section OffCanvas -->
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas offcanvas-end main_offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <!-- OffCanvas Header -->
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <!-- OffCanvas Title -->
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                    <!-- OffCanvas Toggle Button -->
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
+                                <!-- OffCanvas Body -->
                                 <div class="offcanvas-body">
-                                    ...
+                                    <div class="row">
+                                        <!-- Name Input -->
+                                        <div class="col">
+                                            <div class="input-group mb-3">
+                                                <label for="input-name" class="my-2 w-100">Nome</label>
+                                                <input type="text" class="form-control rounded-2" id="input-name">
+                                            </div>
+                                        </div>
+                                        <!-- SurName Input -->
+                                        <div class="col">
+                                            <div class="input-group mb-3">
+                                                <label for="input-surname" class="my-2 w-100">Cognome</label>
+                                                <input type="text" class="form-control rounded-2" id="input-surname">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         <!-- Fine Main Center Col First Section -->

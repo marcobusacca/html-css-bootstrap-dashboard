@@ -87,6 +87,11 @@ a{
     .chart_content a{
         text-decoration: underline;
     }
+
+    /* MAIN FIRST SECTION OFFCANVAS */
+    .offcanvas{
+        --bs-offcanvas-width: 768px;
+    }
 /* FINE MAIN */
 
 /* UTILITIES */
