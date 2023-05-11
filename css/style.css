@@ -120,7 +120,7 @@ a{
 
 /* LAYOUT RESPONSIVE */
     /* TABLET */
-    @media (min-width: 768px){
+    @media screen and (min-width: 768px){
         .main_center_content h2{
             font-size: 25px;
         }
@@ -135,7 +135,7 @@ a{
     }
 
     /* DESKTOP */
-    @media (min-width: 992px){
+    @media screen and (min-width: 992px){
         /* MAIN SIDE BAR */
         .main_side_bar{
             width: 150px;
