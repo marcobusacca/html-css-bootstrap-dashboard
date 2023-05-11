@@ -53,6 +53,25 @@ a{
     }
 
     /* MAIN NEXT CLASSES SECTION */
+    .next_classes_content tr td:first-child{
+        width: 50px;
+    }
+
+    .next_classes_content tr td:first-child img{
+        width: 35px;
+    }
+
+    .next_classes_content tr td label{
+        padding: 1px 10px;
+        font-size: 12px;
+    }
+
+    .next_classes_content tr td .action{
+        width: 26px;
+        height: 26px;
+        padding: 1px;
+        display: inline-block;
+    }
     
     /* MAIN FAQ SECTION */
 
@@ -121,6 +140,7 @@ a{
 /* LAYOUT RESPONSIVE */
     /* TABLET */
     @media screen and (min-width: 768px){
+        /* MAIN CENTER CONTENT */
         .main_center_content h2{
             font-size: 25px;
         }
@@ -131,6 +151,17 @@ a{
 
         .main_center_content .plus_label{
             padding: 1px 7px;
+        }
+
+        /* NEXT CLASSES CONTENT */
+        .next_classes_content tr td:first-child{
+            width: 250px;
+        }
+
+        .next_classes_content tr td .action{
+            width: 32px;
+            height: 32px;
+            padding: 0;
         }
     }
 
