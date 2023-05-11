@@ -83,6 +83,11 @@ a{
         display: inline-block;
     }
 
+    /* TODO SECTION */
+    .todo_content li{
+        font-size: 11.96px;
+    }
+
     /* MAIN CHART SECTION */
     .chart_content a{
         text-decoration: underline;
@@ -179,6 +184,11 @@ a{
             width: 32px;
             height: 32px;
             padding: 0;
+        }
+
+        /* TODO CONTENT */
+        .todo_content li{
+            font-size: 16px;
         }
     }
 
