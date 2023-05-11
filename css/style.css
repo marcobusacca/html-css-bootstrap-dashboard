@@ -29,6 +29,11 @@ a{
 /* FINE HEADER */
 
 /* MAIN */
+    /* MAIN SIDE BAR */
+    .main_side_bar a:hover{
+        background-color: rgba(128, 128, 128, 0.75)
+    }
+
     /* MAIN FIRST SECTION */
     .main_center_content h2{
         display: inline-block;
