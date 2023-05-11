@@ -205,22 +205,96 @@
                                 </div>
                                 <!-- OffCanvas Body -->
                                 <div class="offcanvas-body">
-                                    <div class="row">
-                                        <!-- Name Input -->
-                                        <div class="col">
-                                            <div class="input-group mb-3">
-                                                <label for="input-name" class="my-2 w-100">Nome</label>
-                                                <input type="text" class="form-control rounded-2" id="input-name">
+                                    <form action="#" method="POST">
+                                        <div class="row">
+                                            <!-- Name Input -->
+                                            <div class="col-6">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-name" class="my-2 w-100">Nome</label>
+                                                    <input type="text" class="form-control border-secondary-subtle rounded-2" id="input-name">
+                                                </div>
+                                            </div>
+                                            <!-- Surname Input -->
+                                            <div class="col-6">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-surname" class="my-2 w-100">Cognome</label>
+                                                    <input type="text" class="form-control border-secondary-subtle rounded-2" id="input-surname">
+                                                </div>
+                                            </div>
+                                            <!-- Email Input -->
+                                            <div class="col-6">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-email" class="my-2 w-100">Email</label>
+                                                    <span class="input-group-text bg-body-secondary border-secondary-subtle rounded-start-2" id="basic-addon1">@</span>
+                                                    <input type="email" class="form-control border-secondary-subtle" id="input-email" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <!-- Password Input -->
+                                            <div class="col-6">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-password" class="my-2 w-100">Password</label>
+                                                    <input type="password" class="form-control border-secondary-subtle rounded-2" id="input-password">
+                                                </div>
+                                            </div>
+                                            <!-- Address Input -->
+                                            <div class="col-12">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-address" class="my-2 w-100">Indirizzo</label>
+                                                    <input type="text" class="form-control border-secondary-subtle rounded-2" id="input-address">
+                                                </div>
+                                            </div>
+                                            <!-- City Input -->
+                                            <div class="col-6">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-city" class="my-2 w-100">Citta</label>
+                                                    <input type="text" class="form-control border-secondary-subtle rounded-2" id="input-city">
+                                                </div>
+                                            </div>
+                                            <!-- State Input -->
+                                            <div class="col-4">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-state" class="my-2 w-100">Stato</label>
+                                                    <select class="form-select border-secondary-subtle rounded-2" id="input-state">
+                                                      <option selected hidden>Scegli...</option>
+                                                      <option value="1">Italia</option>
+                                                      <option value="2">Svizzera</option>
+                                                      <option value="3">Francia</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- CAP Input -->
+                                            <div class="col-2">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-cap" class="my-2 w-100">CAP</label>
+                                                    <input type="text" class="form-control border-secondary-subtle rounded-2" id="input-cap">
+                                                </div>
+                                            </div>
+                                            <!-- Photo Input -->
+                                            <div class="col-12">
+                                                <div class="input-group mb-3">
+                                                    <label for="input-photo" class="my-2 w-100">Photo</label>
+                                                    <span class="input-group-text bg-body-secondary border-secondary-subtle rounded-start-2" id="basic-addon2">Scegli file</span>
+                                                    <input type="text" class="form-control border-secondary-subtle" id="input-photo" aria-describedby="basic-addon2" placeholder="Nessun file selezionato">
+                                                </div>
+                                            </div>
+                                            <!-- Checkbox -->
+                                            <div class="col-12 mt-4">
+                                                <!-- Checkbox -->
+                                                <input class="form-check-input border border-dark-subtle" type="checkbox" id="flexCheckOffCanvas">
+                                                <!-- Checkbox Label -->
+                                                <label class="form-check-label px-2" for="flexCheckOffCanvas">
+                                                    Seleziona per proseguire
+                                                </label>
+                                            </div>
+                                            <!-- Button -->
+                                            <div class="col-12 mt-4">
+                                                <!-- Save Button -->
+                                                <button type="button" class="btn btn-primary">Salva</button>
+                                                <!-- To Empty Button -->
+                                                <button type="button" class="btn btn-warning mx-1">Svuota</button>
                                             </div>
                                         </div>
-                                        <!-- SurName Input -->
-                                        <div class="col">
-                                            <div class="input-group mb-3">
-                                                <label for="input-surname" class="my-2 w-100">Cognome</label>
-                                                <input type="text" class="form-control rounded-2" id="input-surname">
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         <!-- Fine Main Center Col First Section -->
