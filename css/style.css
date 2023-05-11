@@ -63,18 +63,6 @@ a{
 /* FINE MAIN */
 
 /* UTILITIES */
-    /* WIDTH */
-        .w_100{
-            width: 100%;
-        }
-    /* FINE WIDTH */
-
-    /* HEIGHT */
-        .h_100{
-            height: 100%;
-        }
-    /* FINE HEIGHT */
-
     /* TEXT COLOR */
         .txt_grey{
             color: #5B5858;
